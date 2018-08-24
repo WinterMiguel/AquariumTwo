@@ -9,6 +9,8 @@ fun main (args: Array<String>) {
 
 fun buildAquarium() {
 
+
+
     val myAquarium = Aquarium()
 
     println("Length: ${myAquarium.length}" +
@@ -26,8 +28,8 @@ fun buildAquarium() {
 
 fun buildSimpleSpice() {
 
-    val simpleSpice = SimpleSpice()
+    val spice = Spice(name = "String")
 
-    println("${simpleSpice.namme} ${simpleSpice.heat}")
+    println("${spice.name} ${spice.spices1}")
 
 }
