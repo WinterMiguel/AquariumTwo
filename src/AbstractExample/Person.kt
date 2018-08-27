@@ -21,7 +21,7 @@ class Teacher(name: String): Person(name) {
 }
 
 fun main(args: Array<String>) {
-    val jack = Teacher("Jack Smith")
-    jack.displayJob("I'm a mathematics teacher.")
-    jack.displaySSN(23123)
+    val jack = Teacher("Winter Santana")
+    jack.displayJob("Estudante de Programação")
+    jack.displaySSN(707070)
 }
