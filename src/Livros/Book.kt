@@ -16,4 +16,5 @@ class eBook(title: String, author: String, var format: String = "text") : Book(t
     override fun readPage() {
         wordsRead = wordsRead + 250
     }
+
 }

@@ -4,7 +4,6 @@ fun main (args: Array<String>) {
 
 //    buildAquarium()
 
-    buildSimpleSpice()
 }
 
 fun buildAquarium() {
@@ -26,10 +25,3 @@ fun buildAquarium() {
 
 }
 
-fun buildSimpleSpice() {
-
-    val spice = Spice(name = "String")
-
-    println("${spice.name} ${spice.spices1}")
-
-}
