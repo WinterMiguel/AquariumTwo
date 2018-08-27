@@ -10,7 +10,7 @@ fun delegate() {
     pleco.eat()
 }
 
-interface FishAction {
+interface Grinder {
     fun eat()
 }
 

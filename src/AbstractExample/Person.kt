@@ -13,7 +13,7 @@ abstract class Person(name: String) {
     abstract fun displayJob(description: String)
 }
 
-class Teacher(name: String): Person(name) {
+class Student(name: String): Person(name) {
 
     override fun displayJob(description: String) {
         println(description)
@@ -21,7 +21,7 @@ class Teacher(name: String): Person(name) {
 }
 
 fun main(args: Array<String>) {
-    val jack = Teacher("Winter Santana")
-    jack.displayJob("Estudante de Programação")
-    jack.displaySSN(707070)
+    val winter = Student("Winter Santana")
+    winter.displayJob("Estudante de Programação")
+    winter.displaySSN(707070)
 }
